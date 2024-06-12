@@ -6,7 +6,7 @@ Skeletor solves ~~my~~ the annoyance of duplicating directory or project structu
 It allows users to replicate the folder structure and files sans content, streamlines the process of setting up new projects or directories with a predefined layout.
 
 
-Thrown together between lectures... creating countless identical project structures for tutorials got boring fast and I couldn't find anything that solves this issue...
+Threw the original together between lectures... creating countless identical project structures for tutorials got boring fast and I couldn't find anything that solves this issue...
 
 Originally in python, rewritten in C for efficiency, learning and fun 
 

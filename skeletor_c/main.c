@@ -84,7 +84,7 @@ void get_paths(char *base_path, char **dirs, int *dir_count, char **files, int *
         if (S_ISDIR(path_stat.st_mode)) {
             if (*dir_count < 1000) {
                 strncpy(dirs[*dir_count], path, MAX_PATH_LEN - 1);
-                dirs[*dir_count][MAX_PATH_LEN - 1] = '\0'; // Ensure null-termination
+                dirs[*dir_count][MAX_PATH_LEN - 1] = '\0'; 
                 (*dir_count)++;
                 get_paths(path, dirs, dir_count, files, file_count);
             } else {
@@ -94,7 +94,7 @@ void get_paths(char *base_path, char **dirs, int *dir_count, char **files, int *
         } else if (S_ISREG(path_stat.st_mode)) {
             if (*file_count < 1000) {
                 strncpy(files[*file_count], path, MAX_PATH_LEN - 1);
-                files[*file_count][MAX_PATH_LEN - 1] = '\0'; // Ensure null-termination
+                files[*file_count][MAX_PATH_LEN - 1] = '\0'; // null terminate
                 (*file_count)++;
             } else {
                 fprintf(stderr, "File limit reached\n");

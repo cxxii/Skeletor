@@ -12,7 +12,6 @@ Originally in python, rewritten in C for efficiency, learning and fun
 
 Free to use and improve...
 
-git remote add origin git@github.com:cxii/skeletor.git
 ## Demo
 
 will do 
@@ -23,7 +22,7 @@ will do
 Clone the project
 
 ```bash
-  git clone https://link-to-project
+  git clone github.com/cxxii/skeletor/
 ```
 
 Go to the project directory

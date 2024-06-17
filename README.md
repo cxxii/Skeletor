@@ -60,7 +60,7 @@ Found on macos @ /usr/local/bin or ~/bin
 
 ## Support
 
-C version may only work on mac given is uses Pbcopy.
+C version may only work on mac given it uses Pbcopy.
 
 Both are untested on Linux & Windows
 
